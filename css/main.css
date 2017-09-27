@@ -1,0 +1,122 @@
+body{
+  padding:20px;
+  padding-left:0px; 
+  padding-right:0px;
+  font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+  height:100%;
+  width:100%;
+  overflow-x: hidden;
+  box-sizing:border-box;
+  margin:0px;
+  margin-top:0px;
+  padding-top:0px;
+  padding-left:0px;
+	
+}
+
+
+
+.ibutton{
+  padding:10px; 
+  display:inline-block; 
+  border:solid 1px rgba(122,201,67,0.9); 
+  padding-left:20px; 
+  padding-right:20px; 
+  margin-top:20px; 
+  font-size:16px; 
+  color:rgba(122,201,67,1); 
+  text-align:center; 
+  cursor:pointer;
+  transition: 1s;
+  transition-timing-function: ease;
+  background-color:#ffffff;
+}
+
+.ibutton:hover{
+  background-color:rgba(122,201,67,0.6); 
+  color:#ffffff; 
+  transition: 1s;
+  transition-timing-function: ease;
+  border:solid 1px rgba(122,201,67,0.9);
+}
+
+input{
+  border:solid 1px rgba(122,201,67,0.9);
+  padding:5px;
+  font-size:18px;
+  width:400px;
+}
+
+textarea{
+  border:solid 1px rgba(122,201,67,0.9);
+  padding:5px;
+  font-size:18px;
+  width:100%;
+  height:300px;
+}
+
+.ibutton.active{
+  background-color:rgba(122,201,67,0.6); 
+}
+
+.Einput{
+  padding:7px;
+  border:solid 1px rgba(121,179,220,0.6);
+  width:250px;
+  font-size:16px;
+}
+
+.iopencloseArrow{
+  cursor:pointer; 
+  opacity:0.5;
+  background-image:url('../img/svg/arrow.svg'); 
+  background-size:contain; 
+  background-repeat:no-repeat;
+  background-position:center;
+  transition: 1s;
+  transition-timing-function: ease;  
+
+}
+
+.iclose .iopencloseArrow{
+   -moz-transform: rotate(90deg);   
+  -ms-transform: rotate(90deg);   
+  -webkit-transform: rotate(90deg);     
+  -o-transform: rotate(90deg);    
+  transform: rotate(90deg);
+  transition: 1s;
+  transition-timing-function: ease;
+
+}
+
+.iopen .iopencloseArrow{
+
+-moz-transform: rotate(270deg);   
+  -ms-transform: rotate(270deg);   
+  -webkit-transform: rotate(270deg);     
+  -o-transform: rotate(270deg);    
+  transform: rotate(270deg);
+  transition: 1s;
+  transition-timing-function: ease;
+
+}
+
+.sortItem{
+  float:left; 
+  background-color:#cccccc;
+   color:#ffffff; 
+   padding:3px; 
+   padding-left:15px; 
+   padding-right:15px; 
+   margin-left:5px; 
+   text-transform:uppercase; 
+   cursor:pointer;
+}
+
+.sortItem.active{
+   background-color:#1A8FC4;
+}
